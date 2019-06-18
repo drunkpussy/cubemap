@@ -20,3 +20,12 @@ export function loadMaterial(name) {
 
     return materialArray
 }
+
+export function loadCubemap(name) {
+    let materialArray = loadMaterial(name);
+
+    let cubemapGeo = new THREE.BoxGeometry(10000, 10000, 10000);
+    let cubemap = new THREE.Mesh(cubemapGeo, materialArray);
+
+    return cubemap
+}
