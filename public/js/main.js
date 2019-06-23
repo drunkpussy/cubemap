@@ -5,7 +5,7 @@ import { loadCubemap } from './loader.js'
 let scene, camera, renderer;
 let materialName = '1';
 let counter = 0;
-// let fov, zoom = 1.0, inc = -0.007;
+let fov, zoom = 1.0, inc = -0.007;
 let composer;
 let cubemap;
 
