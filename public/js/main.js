@@ -44,6 +44,7 @@ function animate(currentCube) {
         // zoom += inc;
         composer.render();
         cubemap.position.z -= 30;
+        // cubemap.scale.z *= 1.02;
     } else if (counter == 300) {
         // console.log(scene)
         camera.position.set(-900, -100, -900);
