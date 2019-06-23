@@ -1,0 +1,13 @@
+之前看过Youtube有个skybox的视频，参考一下视频怎么加载成3d的box
+https://www.youtube.com/watch?v=cp-H_6VODko
+代码整理一下
+
+Import * as THREE一直不行
+查了好久不行直接在script里引了
+Orbit control能用但一直有个报错又查了好久
+
+
+动画部分
+一开始感觉动画就是像zoom in后来弄下来不像 
+Google查了一下可能是motion blur 用了threejs的postprocessing 那块的api
+然后set up post processing但感觉内部的图片好像用这种方法没有变化
