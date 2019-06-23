@@ -1,1 +1,3 @@
 # cubemap
+
+npm run serve
